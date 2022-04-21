@@ -36,18 +36,22 @@
 
 ## Bookmarks
 
+### [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
+
+```
+curl -fsSL https://raw.githubusercontent.com/nagygergo/jetbrains-toolbox-install/master/jetbrains-toolbox.sh | bash
+```
+
 ### [Node Version Manager](https://github.com/nvm-sh/nvm)
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-
 ```
 
 ### [Oh My Zsh](https://ohmyz.sh/)
 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 ```
 
 ### [Homebrew](https://brew.sh/)
