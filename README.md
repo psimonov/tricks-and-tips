@@ -59,3 +59,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+## Tips
+
+### Kill process on specific port
+
+```
+sudo kill -9 $(sudo lsof -t -i:8080)
+```
