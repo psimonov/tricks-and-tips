@@ -67,3 +67,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```
 sudo kill -9 $(sudo lsof -t -i:8080)
 ```
+
+### Generate SSH key
+
+```
+ssh-keygen -t rsa -b 4096 -C test@example.com
+```
