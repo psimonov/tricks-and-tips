@@ -16,10 +16,10 @@ git add -A
 git commit -am ...
 
 # Remove master
-git branch -D master
+git branch -D main
 
 # Rename new branch to master
-git branch -m master
+git branch -m main
 
 # Force push
-git push -f origin master
+git push -f origin main
